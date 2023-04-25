@@ -9,3 +9,12 @@ else
   echo fruit does not exist
 
 fi
+
+# always double quote expressions in double quote
+
+  if [ "$quantity" gt 100]
+  then
+    echo Mango price - 100rs
+  else
+    echo Mango price - 200rs
+  fi
