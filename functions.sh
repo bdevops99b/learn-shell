@@ -11,7 +11,7 @@ function_name()
  }
  # call the function
  function_name
- # we can send inputs to the functions and we can access them with special variables $1-$n,$*,$#
+ # we can send inputs to the functions and we can access them with special var.tf $1-$n,$*,$#
 
  function_name1(){
    echo first argument = $1
