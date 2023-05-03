@@ -109,8 +109,8 @@ echo c - $c
   # Why Quotes ?
     # If there is any special character in input to the command then we use quotes.
     # We have single quotes and double quotes
-      # Single Quotes - To print as it is we use single quotes. (Does not allow var.tf)
-      # Double quotes - To print along with variable substitution. (Allow var.tf)
+      # Single Quotes - To print as it is we use single quotes. (Does not allow vars.tf)
+      # Double quotes - To print along with variable substitution. (Allow vars.tf)
 
 # 10. Redirectors
 
